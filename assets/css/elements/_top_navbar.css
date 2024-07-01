@@ -1,0 +1,97 @@
+.top-navbar {
+  z-index: 9999; }
+
+/* --------------- top navbar styles --------------- */
+.top-navbar.style-1 {
+  background: var(--color-main-grad);
+  position: relative;
+  z-index: 9999; }
+  .top-navbar.style-1 .top-links .text {
+    font-size: 11px; }
+    .top-navbar.style-1 .top-links .text strong {
+      margin: 0 10px; }
+    .top-navbar.style-1 .top-links .text .fa-bullhorn {
+      background-color: #002ec1;
+      padding: 15px; }
+  .top-navbar.style-1 .r-side {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
+    .top-navbar.style-1 .r-side .socail-icons {
+      border-right: 1px solid #fff4;
+      padding-right: 10px;
+      margin-right: 14px; }
+      .top-navbar.style-1 .r-side .socail-icons a {
+        color: #fff;
+        margin: 0 5px;
+        font-size: 12px; }
+    .top-navbar.style-1 .r-side .dropdown {
+      color: #fff;
+      font-size: 11px; }
+      .top-navbar.style-1 .r-side .dropdown img {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        -o-object-fit: cover;
+        object-fit: cover; }
+
+/* --------------- top navbar style-4 --------------- */
+.top-navbar.style-4 {
+  background-image: url(../img/top_nav_s4.png);
+  background-size: cover;
+  background-position: top;
+  padding: 10px 15px 50px;
+  text-align: center; }
+
+/* --------------- top navbar style-5 --------------- */
+.top-navbar.style-5 {
+  padding: 10px 15px;
+  text-align: center;
+  background-color: var(--color-blue5); }
+
+/* --------------- top navbar style-7 --------------- */
+.top-navbar.style-7 {
+  padding: 15px 0;
+  border-bottom: 1px solid #9993;
+  position: relative;
+  z-index: 9991; }
+
+/* --------------- top navbar style 9 --------------- */
+.top-navbar.style-9 {
+  color: #fff;
+  background-color: #172b86;
+  padding: 10px 0;
+  position: relative; }
+
+/* --------------- top navbar style 11 --------------- */
+.top-navbar.style-11 {
+  position: relative;
+  z-index: 9999; }
+  .top-navbar.style-11 .top-nav-side {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
+    .top-navbar.style-11 .top-nav-side .social-links {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      color: #fff; }
+      .top-navbar.style-11 .top-nav-side .social-links a {
+        color: #999;
+        -webkit-margin-start: 15px;
+        margin-inline-start: 15px; }
+        .top-navbar.style-11 .top-nav-side .social-links a:hover {
+          color: var(--color-green); }
+
+/* --------------- top navbar style 9 --------------- */
+.top-navbar.style-15 {
+  color: #fff;
+  padding: 20px 0;
+  position: relative;
+  font-size: 13px; }

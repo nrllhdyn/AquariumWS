@@ -1,0 +1,110 @@
+/* --------------- faq-page style-5 --------------- */
+.signin-page.style-5 .signin {
+  position: relative;
+  color: #000;
+  background-image: url(../img/comming_back1.png);
+  background-size: cover;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 100px 0; }
+  .signin-page.style-5 .signin .form-content {
+    background-color: #fff;
+    -webkit-box-shadow: 0px 30px 60px 0px #0000000f;
+    box-shadow: 0px 30px 60px 0px #0000000f;
+    border-radius: 10px; }
+    .signin-page.style-5 .signin .form-content .info {
+      padding: 50px;
+      text-align: center; }
+      .signin-page.style-5 .signin .form-content .info .logo {
+        display: block;
+        padding-bottom: 40px;
+        border-bottom: 1px solid #9993;
+        margin-bottom: 40px; }
+        .signin-page.style-5 .signin .form-content .info .logo img {
+          width: 200px; }
+      .signin-page.style-5 .signin .form-content .info .or-line {
+        position: relative;
+        text-align: center;
+        margin: 25px 0; }
+        .signin-page.style-5 .signin .form-content .info .or-line::after {
+          position: absolute;
+          content: "";
+          left: 0;
+          top: 50%;
+          width: 100%;
+          height: 1px;
+          background-color: #9995; }
+        .signin-page.style-5 .signin .form-content .info .or-line span {
+          position: relative;
+          width: 40px;
+          height: 40px;
+          display: -webkit-inline-box;
+          display: -ms-inline-flexbox;
+          display: inline-flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          border-radius: 50%;
+          border: 1px solid #9995;
+          background-color: #fff;
+          z-index: 10; }
+      .signin-page.style-5 .signin .form-content .info .group-icon {
+        position: relative;
+        font-size: 13px; }
+        .signin-page.style-5 .signin .form-content .info .group-icon .form-control {
+          padding: 18px 15px 18px 40px;
+          font-size: 13px; }
+        .signin-page.style-5 .signin .form-content .info .group-icon .icon {
+          position: absolute;
+          left: 15px;
+          top: 20px; }
+  .signin-page.style-5 .signin .sign-imgs-slider {
+    position: relative;
+    background-color: #b6c7e1;
+    height: 100%; }
+    .signin-page.style-5 .signin .sign-imgs-slider .swiper-pagination {
+      position: absolute;
+      top: 35px; }
+      .signin-page.style-5 .signin .sign-imgs-slider .swiper-pagination .swiper-pagination-bullet {
+        margin: 0 5px;
+        width: 40px;
+        height: 4px;
+        border-radius: 0;
+        background: #fff; }
+        .signin-page.style-5 .signin .sign-imgs-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+          border-radius: 0;
+          color: #fff; }
+    .signin-page.style-5 .signin .sign-imgs-slider .slide-card {
+      text-align: center;
+      padding-top: 80px; }
+      .signin-page.style-5 .signin .sign-imgs-slider .slide-card h3 {
+        font-size: 36px;
+        margin-bottom: 50px;
+        color: #fff; }
+      .signin-page.style-5 .signin .sign-imgs-slider .slide-card .img {
+        padding: 0 50px; }
+        .signin-page.style-5 .signin .sign-imgs-slider .slide-card .img img {
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          -o-object-fit: cover;
+          object-fit: cover;
+          -o-object-position: bottom;
+          object-position: bottom; }
+
+@media screen and (max-width: 991px) {
+  .signin-page.style-5 .signin .form-content .info {
+    padding: 30px 20px; }
+    .signin-page.style-5 .signin .form-content .info .butn {
+      width: 100%; } }
