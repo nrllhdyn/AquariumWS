@@ -17879,3 +17879,9 @@ header.style-6 .info h1 span small {
             transform: translateX(-35%);
   }
 }
+
+#products .swiper-container img{
+  width: 500px; /* Resimlerin sabit genişliği */
+  height: 300px; /* Resimlerin sabit yüksekliği */
+  overflow: hidden; /* Taşan kısımları gizle */
+}
